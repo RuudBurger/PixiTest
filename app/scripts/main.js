@@ -8,7 +8,7 @@ var interactive = true,
 // create a renderer instance.
 p(width, height);
 var renderer = PIXI.autoDetectRenderer(width, height, {
-	//antialias: true
+	antialias: true
 });
 
 // add the renderer view element to the DOM
